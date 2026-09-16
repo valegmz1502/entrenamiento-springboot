@@ -1,0 +1,56 @@
+$kind: http-request
+name: http://localhost:8080/entrenamientos
+description: ""
+url: http://localhost:8080/entrenamientos
+method: GET
+body:
+  type: json
+  content: |-
+    {
+        "numero": 4,
+        "resultados": [
+            {
+                "nombreJugador": "Jugador1",
+                "pases": 25,
+                "potenciaTiro": 10,
+                "velocidad": 5
+            },
+            {
+                "nombreJugador": "Jugador2",
+                "pases": 20,
+                "potenciaTiro": 16,
+                "velocidad": 5
+            },
+            {
+                "nombreJugador": "Jugador3",
+                "pases": 30,
+                "potenciaTiro": 15,
+                "velocidad": 3
+            },
+            {
+                "nombreJugador": "Jugador4",
+                "pases": 18,
+                "potenciaTiro": 12,
+                "velocidad": 4
+            },
+            {
+                "nombreJugador": "Jugador5",
+                "pases": 19,
+                "potenciaTiro": 11,
+                "velocidad": 3
+            },
+            {
+                "nombreJugador": "Jugador6",
+                "pases": 22,
+                "potenciaTiro": 9,
+                "velocidad": 3
+            },
+            {
+                "nombreJugador": "Jugador7",
+                "pases": 24,
+                "potenciaTiro": 10,
+                "velocidad": 2
+            }
+        ]
+    }
+order: 1789543718232

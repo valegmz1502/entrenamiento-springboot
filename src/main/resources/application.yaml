@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: entrenamiento
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/entrenamiento
+    username: root
+    password: temporal1515
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
